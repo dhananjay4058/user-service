@@ -41,4 +41,10 @@ jobs:
       
     - name: Execute Jar File
       run: sudo kill -9 'sudo lsof -t -i:80' & sudo java -jar /home/ubuntu/user-runner/_work/user-service/user-service/target/user-service-0.0.1-SNAPSHOT.jar &
-
+   # - name: Build and Push Docker Image
+   #   uses: mr-smithers-excellent/docker-build-push@v4
+   #   with:
+   #     image: dkraj88/chatbot-service
+   #     registry: docker.io
+   #     username: ${{ secrets.DOCKER_USERNAME }}
+   #     password: ${{ secrets.DOCKER_PASSWORD }}
