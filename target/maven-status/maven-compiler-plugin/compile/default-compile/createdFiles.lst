@@ -1,4 +1,5 @@
 com/agcoassignment/userservice/service/UserServiceImpl.class
+com/agcoassignment/userservice/util/Constants.class
 com/agcoassignment/userservice/entity/User.class
 com/agcoassignment/userservice/repo/UserRepository.class
 com/agcoassignment/userservice/controller/UserController.class
