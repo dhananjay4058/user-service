@@ -9,7 +9,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@OpenAPIDefinition(info = @Info(title = "User API", version = "2.0", description = "User Information"))
+@OpenAPIDefinition(info = @Info(title = "User API", version = "V1", description = "User Information"))
 public class UserServiceApplication {
 
 	public static void main(String[] args) {
